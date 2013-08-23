@@ -47,6 +47,8 @@ if [[ $OSTYPE = freebsd* ]]; then
     alias ls="ls -GF"
     alias ll="ls -lhGF"
     alias la="ls -lhaGF"
+    
+    alias halt="halt -p"
 fi
 
 # exporting colors
