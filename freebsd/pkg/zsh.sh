@@ -86,7 +86,7 @@ if [ -r ${HOME}/.profile ]; then
 	. ${HOME}/.profile
 fi
 if [ -r ${HOME}/.login ]; then
-	. ${HOME}/.login
+	tcsh ${HOME}/.login
 fi
 
 EOD
